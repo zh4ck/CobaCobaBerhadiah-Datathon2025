@@ -1,0 +1,11 @@
+GeForce GTX 1650
+RTX 2050
+GeForce RTX 2060
+RTX 3050 Laptop
+RTX 3060 Laptop
+RTX 4050 Laptop
+RTX 4060 Laptop
+RTX 4070 Laptop
+RTX 4080 Laptop
+RTX 5060 Laptop
+RTX 5070 Laptop
