@@ -1,7 +1,7 @@
 
 # 🎁 Coba Coba Berhadiah — Datathon 2025
 **Integrasi SGD Regression dan Random Forest Classification untuk Penetapan Harga  Kompetitif dan Analisis Daya Beli Laptop di Indonesia**
-Merupakan sistem analitik terintegrasi yang mengombinasikan model regression dan classification untuk analisis produk laptop di pasar Indonesia. Sistem ini menentukan harga optimal berdasarkan spesifikasi teknis dan memprediksi potensi daya beli melalui analisis specification-to-price ratio. Dataset mencakup 1.126 produk laptop dari marketplace dengan fitur utama spesifikasi teknis dan harga produk. Implementasi model regresi (SGD Regression) mencapai MAE 889.73, RMSE 1167.156, dan R2 0,99, sementara model klasifikasi (Random Forest) memperoleh akurasi 90%. Hasil eksperimen menunjukkan kemampuan sistem dalam mengidentifikasi produk overpriced/underpriced serta memberikan rekomendasi strategis. Sistem ini berpotensi meningkatkan efisiensi pasar dan mendukung pengambilan keputusan bagi produsen dan konsumen.
+Merupakan sistem analitik terintegrasi yang mengombinasikan model regression dan classification untuk analisis produk laptop di pasar Indonesia. Sistem ini menentukan harga optimal berdasarkan spesifikasi teknis dan memprediksi potensi daya beli melalui analisis specification-to-price ratio. Sistem ini berpotensi meningkatkan efisiensi pasar dan mendukung pengambilan keputusan bagi produsen dan konsumen.
 
 **Anggota Tim :**
 1. Glenn Josia Devano (glenn.josia.devano@ui.ac.id)
