@@ -12,11 +12,9 @@ Merupakan sistem analitik terintegrasi yang mengombinasikan model regression dan
 * [Models](https://huggingface.co/clowndhim/Model_Coba-Coba-Berhadiah)
 * [Datasets](https://huggingface.co/datasets/clowndhim/Dataset_Model_CobaCobaBerhadiah)
 
-## 📖 Dependencies & Library
+## 📖 Dependencies & Libraries
 
 Semua library yang dibutuhkan tercantum dalam file `requirements.txt` lengkap dengan versinya.
-
-
 
 ## 🚀 Cara Penggunaan
 
@@ -37,7 +35,7 @@ Masuk ke folder `1_Tokopedia Web Scraping` dan ikuti langkah berikut:
    * Payload `SearchProductV5Query` → `search.json`
    * Payload `PDPGetLayoutQuery` → `description.json`
 
-> **⚠️ Dimohon untuk membaca `notes.txt` terlebih dahulu pada folder `1_Tokopedia Web Scraping`.**
+**⚠️ Dimohon untuk membaca `notes.txt` terlebih dahulu pada folder `1_Tokopedia Web Scraping`.**
 
 ### 2. Scraping Produk
 
@@ -60,8 +58,7 @@ python 2_Description Scraping.py
 
 Deskripsi setiap produk akan diambil berdasarkan kelas harga dan disimpan ke dalam folder `2_Features or Specs Parsing/sources`.
 
-⚠️ *Dilakukan bertahap untuk menghindari deteksi bot oleh pihak Tokopedia.*
-
+**⚠️ Dilakukan bertahap untuk menghindari deteksi bot oleh pihak Tokopedia.**
 
 ### 4. Parsing Spesifikasi
 
@@ -73,16 +70,14 @@ python 1_Regex Parsing.py
 
 File output `.csv` akan berisi hasil parsing dari judul & deskripsi, disimpan di folder `parsed`.
 
-
 ### 5. Menggabungkan Hasil Parsing
 
 ```bash
 python 2_Merge Parsed.py
 ```
 
-Output: `main_parsed.csv`
-> Pada tahap ini, dilakukan juga normalisasi satuan (GB/Hz/Rp).
-
+Output: `main_parsed.csv`<br>
+Pada tahap ini, dilakukan juga normalisasi satuan (GB/Hz/Rp).
 
 ### 6. Cleaning & Generalization
 
@@ -105,8 +100,7 @@ Masuk ke folder `3_Passmark Fetch & Parse` dan jalankan:
 python parse-score.py
 ```
 
-> Menggunakan `scraper.py` dari: [passmark-scraper](https://github.com/ading2210/passmark-scraper)
-
+Menggunakan `scraper.py` dari: [passmark-scraper](https://github.com/ading2210/passmark-scraper)<br>
 Output: `scored.csv`
 
 ### 8. Labelling Manual (Points & Worth)
