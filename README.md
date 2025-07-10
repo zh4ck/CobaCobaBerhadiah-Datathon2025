@@ -148,9 +148,6 @@ Dataset final dapat digunakan untuk keperluan pelatihan, validasi, dan evaluasi 
 ├── 3_Passmark Fetch & Parse/
 ├── 4_Points & Classification/
 ├── 5_Models/
-├── Items/
-├── parsed/
-├── dataset_ready.csv
 └── requirements.txt
 ```
 
