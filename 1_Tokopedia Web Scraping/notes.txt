@@ -1,2 +1,0 @@
-Untuk cookies dan headers harus diubah tergantung sedang scraping items atau scraping description
-Karena jika tidak diubah, deskripsi items tidak akan bisa diambil (nanti jadi none), begitupun sebaliknya
